@@ -6,5 +6,36 @@
 header{
     background-color: #418aad;
     width:100%;
-    height: 200px;
+    height: 400px;
+}
+nav
+{
+    display: flex;
+}
+.navlink{
+
+    flex: 1 1 auto;
+    color: #aaaaaa;
+    
+    padding: 1.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    
+    text-align: center;
+    transition: 0.15s;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-color: #f3f0f2;
+
+}
+.navlink:hover
+{
+    
+    background-color: rgb(110, 158, 186, 0.2);
+}
+.spaceholder
+{
+    
+    flex: 30;
+    padding: 1.5%;
 }
