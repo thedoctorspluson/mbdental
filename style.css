@@ -16,16 +16,14 @@ nav
 
     flex: 1 1 auto;
     color: #aaaaaa;
-    
-    padding: 1.5%;
+    padding-top: 3%;
     padding-left: 1%;
     padding-right: 1%;
-    
     text-align: center;
+    vertical-align: center;
     transition: 0.15s;
-    border-bottom-style: solid;
-    border-width: 3px;
-    border-color: #f3f0f2;
+    
+
 
 }
 .navlink:hover
@@ -36,6 +34,9 @@ nav
 .spaceholder
 {
     
-    flex: 30;
+    flex: 10;
     padding: 1.5%;
+}
+.logo{
+
 }
