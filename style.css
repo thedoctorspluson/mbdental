@@ -139,3 +139,27 @@ footer{
 .footlink:hover{
     color: lightgrey;
 }
+/*Zweite Seite: Über uns-------------------------------------------------------------------------------------------------------------------------------------*/
+.unternav{
+    display:flex; 
+    justify-content:center;
+}
+.unternav a{
+    flex: 0 1 auto;
+    padding: 2%;
+    color: #838181;
+    text-align: center;
+    transition: 0.15s;
+}
+.unternav a:hover{
+    background-color: rgb(110, 158, 186, 0.2);
+}
+#team{
+    height:400px;
+}
+#philosophie{
+    height:400px;
+}
+#anlage{
+    height:400px;
+}
