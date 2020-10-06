@@ -5,7 +5,7 @@
 }
 h1{
     color:black;
-    font-size: 25pt;
+    font-size: 30pt;
 }
 h2{
     color:black;
@@ -159,9 +159,30 @@ footer{
 }
 #philosophie{
     height:400px;
+    background-color: #3cc0c5;
+}
+#philosophie p{
+    color:white;
+    max-width: 60%;
+    padding-left:5%;
+}
+#philosophie h1{
+    color:white;
+    padding-bottom:2%;
+    padding-left:5%;
+    padding-top:5%;
+    font-size: 30pt;
+    
 }
 #anlage{
     padding-bottom:5%;
+}
+#anlage h1, #team h1 {
+    font-size: 30pt;
+    padding-bottom:2%;
+    padding-left:5%;
+    padding-top:5%;
+    
 }
 /*Slideshow Quelle:w3schools--------------------------------------------------------------------*/
 * {box-sizing:border-box}
@@ -191,6 +212,7 @@ footer{
   margin-top: -22px;
   padding: 16px;
   color: white;
+  text-shadow: 8px 0px #000000;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -212,7 +234,9 @@ footer{
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  text-shadow: 2px 0px #818181;
+  font-size: 20px;
+  font-weight: bold;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
