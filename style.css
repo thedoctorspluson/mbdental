@@ -171,8 +171,7 @@ footer{
     padding-bottom:2%;
     padding-left:5%;
     padding-top:5%;
-    font-size: 30pt;
-    
+    font-size: 30pt;  
 }
 #anlage{
     padding-bottom:5%;
@@ -182,7 +181,19 @@ footer{
     padding-bottom:2%;
     padding-left:5%;
     padding-top:5%;
-    
+}
+/*dritte Seite: Unsere Arbeit-------------------------------------------------------------------------------------------------------------------------------------*/
+#vollkeramik, #metallkeramik, #oxidkeramik{
+    height:400px;
+}
+#implantate{
+    padding-bottom:5%;
+}
+#vollkeramik h1, #metallkeramik h1, #oxidkeramik h1, #implantate h1 {
+    font-size: 30pt;
+    padding-bottom:2%;
+    padding-left:5%;
+    padding-top:5%; 
 }
 /*Slideshow Quelle:w3schools--------------------------------------------------------------------*/
 * {box-sizing:border-box}
