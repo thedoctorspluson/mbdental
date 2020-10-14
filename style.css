@@ -195,6 +195,16 @@ footer{
     padding-left:5%;
     padding-top:5%; 
 }
+.slideundtext{
+    display:flex;
+    justify-content: flex-start;
+}
+.beschreibung{
+    background-color:grey;
+    height: 700px;
+    width:50%;
+    flex: 0 1 auto;
+}
 /*Slideshow Quelle:w3schools--------------------------------------------------------------------*/
 * {box-sizing:border-box}
 
@@ -204,7 +214,17 @@ footer{
   position: relative;
   margin: auto;
 }
+.slideshow-container2 {
+    flex: 0 1 auto;
+    max-width: 50%;
+    position: relative;
+    margin: auto;
+  }
 .slideshow-container img{
+    height:700px;
+    object-fit: cover;
+}
+.slideshow-container2 img{
     height:700px;
     object-fit: cover;
 }
