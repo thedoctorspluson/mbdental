@@ -200,10 +200,11 @@ footer{
     display:flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+    background-color:  rgb(110, 158, 186, 0.2);
 }
 .beschreibung{
-    background-color:grey;
-    height: 700px;
+    
+    height: 400px;
     width:50%;
     min-width:400px;
     flex: 0 1 auto;
@@ -231,7 +232,7 @@ footer{
     object-fit: cover;
 }
 .slideshow-container2 img{
-    height:700px;
+    height:400px;
     object-fit: cover;
 }
 
@@ -245,7 +246,25 @@ footer{
 .mySlides2, .mySlides3, .mySlides4 {
     display: none;
 }
-   
+.vergleichrechts{
+    cursor: pointer;
+    position: absolute;
+    top: 5.5%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}  
+.vergleichrechts:hover{ 
+    background-color: lightslategray;
+    transition: 0.2s;
+}
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
