@@ -236,7 +236,7 @@ footer{
 .mySlides1 {
     display: none;
 }
-.mySlides2 {
+.mySlides2, .mySlides3, .mySlides4 {
     display: none;
 }
    
