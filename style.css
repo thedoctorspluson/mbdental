@@ -46,6 +46,7 @@ header h1{
 nav
 {
     display: flex;
+    flex-wrap: wrap;
 }
 .navlink{
     flex: 1 1 auto;
