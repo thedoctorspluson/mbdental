@@ -184,7 +184,7 @@ footer{
 }
 /*dritte Seite: Unsere Arbeit-------------------------------------------------------------------------------------------------------------------------------------*/
 #vollkeramik, #metallkeramik, #oxidkeramik{
-    height:400px;
+    padding-bottom:5%;
 }
 #implantate{
     padding-bottom:5%;
@@ -233,7 +233,13 @@ footer{
 .mySlides {
   display: none;
 }
-
+.mySlides1 {
+    display: none;
+}
+.mySlides2 {
+    display: none;
+}
+   
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
