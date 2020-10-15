@@ -198,12 +198,16 @@ footer{
 .slideundtext{
     display:flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 .beschreibung{
     background-color:grey;
     height: 700px;
     width:50%;
+    min-width:400px;
     flex: 0 1 auto;
+    margin: auto;
+    
 }
 /*Slideshow Quelle:w3schools--------------------------------------------------------------------*/
 * {box-sizing:border-box}
@@ -216,7 +220,8 @@ footer{
 }
 .slideshow-container2 {
     flex: 0 1 auto;
-    max-width: 50%;
+    width: 50%;
+    min-width:400px;
     position: relative;
     margin: auto;
   }
