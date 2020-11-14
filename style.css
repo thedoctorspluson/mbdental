@@ -46,7 +46,7 @@ button:hover{
 } 
 .headerbild {
     background-image: url(img/empfang.jpg);
-    width: 50%;
+    width: 40%;
     height: 400px; 
     float:right;
     background-repeat: no-repeat;
@@ -55,7 +55,7 @@ button:hover{
     min-width:400px; 
 } 
 .headertext{
-    width:50%;
+    width:60%;
     flex: 1 1 auto;
 }
 header h1{
