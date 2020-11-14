@@ -200,6 +200,10 @@ footer{
 #team{
     margin-bottom:5%;
 }
+#team p{
+    max-width: 60%;
+    padding:5%; 
+}
 #philosophie{
     height:400px;
     background-color: #3cc0c5;
@@ -407,4 +411,15 @@ footer{
   from {opacity: .4}
   to {opacity: 1}
 }
-/*Slideshowende------------------------------------------------------------------------/*
+/*Slideshowende------------------------------------------------------------------------*/
+/*vierte Seite Kontakt--------------------------------------------------------------------------------------------------------------------------------------*/
+
+#kontakt, #kurse, #fachartikel{
+    height:400px;
+}
+#kontakt h1, #kurse h1, #fachartikel h1{
+    font-size: 30pt;
+    padding-bottom:2%;
+    padding-left:5%;
+    padding-top:5%;
+}
