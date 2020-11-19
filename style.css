@@ -22,9 +22,10 @@ h3{
     padding-bottom: 30px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-style: italic;
-    
-    
+    font-style: italic; 
+}
+.logo{
+    height:110px;
 }
 button{
     font-family: 'Source Sans Pro', sans-serif;
@@ -197,22 +198,27 @@ footer{
 .unternav{
     display:flex; 
     justify-content:center;
+    background-color: rgb(110, 158, 186, 0.2);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .unternav a{
     flex: 0 1 auto;
-    padding: 2%;
+    padding: 1.5%;
+    padding-left: 2%;
+    padding-right: 2%;
     color: #838181;
     text-align: center;
     transition: 0.15s;
 }
 .unternav a:hover{
-    background-color: rgb(110, 158, 186, 0.2);
+    background-color: #418aad;
+    color: white;
 }
 #team{
     margin-bottom:5%;
 }
 #team p{
-    max-width: 60%;
+    max-width: 1000px;
     padding:5%; 
 }
 #team h1{
@@ -224,7 +230,7 @@ footer{
 }
 #philosophie p{
     color:white;
-    max-width: 60%;
+    max-width: 1000px;
     padding-left:5%;
 }
 #philosophie h1{
@@ -245,16 +251,12 @@ footer{
 }
 .bildteam{
     background-image: url(img/team/Team.jpg);
-   
-   
     background-repeat: no-repeat;
     background-size: cover;
     height:800px;
     width:100%;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   
     background-position:top;
-
 }
 /*dritte Seite: Unsere Arbeit-------------------------------------------------------------------------------------------------------------------------------------*/
 #vollkeramik, #metallkeramik, #oxidkeramik{
