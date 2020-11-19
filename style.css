@@ -17,12 +17,22 @@ h3{
     padding-bottom: 30px;
     font-weight:100;
 }
-header{
+.headline{
     background-color: #418aad;
     width:100%;
-    height: 400px;
-    display: flex;
-    flex-wrap: wrap;
+    height: 2px;
+}
+header{
+   position:relative;
+}
+.headerbild{
+    background-image: url(img/patientenraum1.jpg);
+    Filter: brightness(0.8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center; 
+    width:100%;
+    height: 550px;
 }
 header button {
     text-transform:uppercase;
@@ -38,32 +48,20 @@ header button {
     border-radius: 4px;
     cursor: pointer;
     transition: 0.2s;
-    flex: 1 1 auto;
-   
 }
 button:hover{
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 } 
-.headerbild {
-    background-image: url(img/empfang.jpg);
-    width: 40%;
-    height: 400px; 
-    float:right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center; 
-    min-width:400px; 
-} 
 .headertext{
+    Filter: brightness(1);
     width:60%;
-    flex: 1 1 auto;
+    position: absolute;
+    top: 40px;
+    left: 16px;
 }
 header h1{
     color:white;
     padding: 5%;
-    
-    
-   
 }
 nav{
     display: flex;
@@ -106,7 +104,7 @@ nav{
     flex-wrap: wrap;
 }
 .bildstartseite{
-    background-image: url(img/patientenraum1.jpg);
+    background-image: url(img/empfang.jpg);
     flex: 1 1 auto;
     margin: 5%;
     background-repeat: no-repeat;
@@ -203,6 +201,9 @@ footer{
 #team p{
     max-width: 60%;
     padding:5%; 
+}
+#team h1{
+    color:white;
 }
 #philosophie{
     height:400px;
