@@ -2,20 +2,33 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', sans-serif;   
     line-height: 1.5;
 }
 h1{
     color:black;
     font-size: 30pt;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:1px;
 }
 h2{
     color:black;
     margin-bottom:1%;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:1px;
 }
 h3{
     color: #838181;
     padding-bottom: 30px;
-    font-weight:100;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    
+    
+}
+button{
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing:1px;
 }
 .headline{
     background-color: #418aad;
