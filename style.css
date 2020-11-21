@@ -449,7 +449,9 @@ footer{
 /*vierte Seite Kontakt--------------------------------------------------------------------------------------------------------------------------------------*/
 
 #kontakt{
-    
+    display:flex;
+    flex:wrap;
+    margin:5%;
 }
 #kontakt h1{
     font-size: 30pt;
@@ -458,8 +460,23 @@ footer{
     padding-top:5%;
 }
 #kontakt p{
-    max-width: 1000px;
+    max-width: 800px;
     padding-left:5%;
     padding-right:5%;
     padding-bottom:5%;
+}
+.kontakttext{
+    flex: 0 1 auto;
+    width: 500px;
+    margin-right:5%;
+}
+.kontaktbild{
+    flex: 0 1 auto;
+    background-image: url(img/team/Rezeption.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    width:60%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-position:right;
 }
