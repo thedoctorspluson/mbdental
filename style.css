@@ -225,7 +225,6 @@ footer{
     color:white;
 }
 #philosophie{
-    height:400px;
     background-color: #3cc0c5;
 }
 #philosophie p{
@@ -233,6 +232,7 @@ footer{
     max-width: 1000px;
     padding-left:5%;
     padding-right:5%;
+    padding-bottom:5%;
 }
 #philosophie h1{
     color:white;
@@ -270,6 +270,7 @@ footer{
 .portrait{
     flex: 0 1 auto;
     margin: 0.5vw;
+    flex-basis:20%;
 }
 .bild{
     max-width:300px;
