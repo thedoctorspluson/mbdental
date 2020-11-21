@@ -448,12 +448,18 @@ footer{
 /*Slideshowende------------------------------------------------------------------------*/
 /*vierte Seite Kontakt--------------------------------------------------------------------------------------------------------------------------------------*/
 
-#kontakt, #kurse, #fachartikel{
-    height:400px;
+#kontakt{
+    
 }
-#kontakt h1, #kurse h1, #fachartikel h1{
+#kontakt h1{
     font-size: 30pt;
     padding-bottom:2%;
     padding-left:5%;
     padding-top:5%;
+}
+#kontakt p{
+    max-width: 1000px;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:5%;
 }
