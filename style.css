@@ -101,7 +101,7 @@ nav{
 .infoboxes{
     display:flex;
     flex-wrap: wrap;
-    
+    justify-content: space-around;
 }
 .infoboxes h2{
     border-bottom: 2px solid #418aad;
