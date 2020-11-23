@@ -243,14 +243,12 @@ footer{
     color:white;
     padding-bottom:2%;
     padding-left:5%;
-    padding-top:5%;
-    font-size: 30pt;  
+    padding-top:5%;  
 }
 #anlage{
     padding-bottom:5%;
 }
 #anlage h1, #team h1 {
-    font-size: 30pt;
     padding-bottom:2%;
     padding-left:5%;
     padding-top:5%;
@@ -289,7 +287,6 @@ footer{
     padding-bottom:5%;
 }
 #vollkeramik h1, #metallkeramik h1, #oxidkeramik h1, #implantate h1 {
-    font-size: 30pt;
     padding-bottom:2%;
     padding-left:5%;
     padding-top:5%; 
@@ -459,7 +456,6 @@ footer{
     margin:5%;
 }
 #kontakt h1{
-    font-size: 30pt;
     padding-bottom:2%;
     padding-left:5%;
     padding-top:5%;
@@ -487,5 +483,43 @@ footer{
 }
 /*Für Handyscreens---------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 600px) {
-
+    *{
+        font-size: 10pt;
+    }
+    h1{
+        font-size: 20pt;
+    }
+    h2{
+        font-size: 15pt;
+    }
+    button{
+        font-size:13pt;
+    }
+    header button{
+        font-size:13pt;
+        padding:2%;
+    }
+    inhaltsboxen{
+        max-width:600px;
+    }
+    main{
+        margin: 0 auto;
+    }
+    .bildteam{
+        background-image: url(img/team/Team.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:800px;
+        width:100%;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-position:top;
+    }
+    .kontaktbild{
+        display:none;
+    }
+    .footbox{
+        min-width:50%;
+        font-size:9pt;
+    }
+    
   }
