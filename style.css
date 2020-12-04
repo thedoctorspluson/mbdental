@@ -29,7 +29,7 @@ h3{
     color:#418aad;
     font-family: 'Dancing Script', sans-serif;
     letter-spacing:1px;
-    overflow: visible
+    line-height:40px;
 }
 .logo{
     height:125px;
@@ -501,6 +501,38 @@ address a{
 .kontaktbild{
     flex: 0 1 auto;
     background-image: url(img/team/Rezeption.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    width:60%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-position:right;
+}
+/*vierte Seite Karriere----------------------------------------------------------------------------------------------------------------------*/
+#karriere{
+    display:flex;
+    flex:wrap;
+    margin:5%;
+}
+#karriere h1{
+    padding-bottom:2%;
+    padding-left:5%;
+    padding-top:5%;
+}
+#karriere p{
+    max-width: 800px;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:5%;
+}
+.karrieretext{
+    flex: 0 1 auto;
+    width: 500px;
+    margin-right:5%;
+}
+.karrierebild{
+    flex: 0 1 auto;
+    background-image: url(img/team/team.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height:600px;
