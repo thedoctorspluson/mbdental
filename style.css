@@ -186,6 +186,9 @@ footer{
 .footlink:hover{
     color: lightgrey;
 }
+.facebook{
+    height:100px;
+}
 #myBtn {
     display: none; 
     position: fixed; 
@@ -469,6 +472,7 @@ address{
 address a{
     text-decoration:none;
     color: #418aad;
+    text-decoration: underline;
 }
 .hervorhebung{
     font-size: 20pt;
