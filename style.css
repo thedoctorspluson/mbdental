@@ -273,8 +273,12 @@ footer{
 }
 #kurse{
     background-color: #39bdd4;
+    
 }
-#kurse p{
+#fachartikel{
+    margin-bottom: 5%;
+}
+#kurse p, #fachartikel p{
     color:white;
     max-width: 1000px;
     padding-left:5%;
@@ -286,6 +290,17 @@ footer{
     padding-bottom:2%;
     padding-left:5%;
     padding-top:5%;  
+}
+.pdfview{
+    height:600px;
+    width: 100%;
+}
+.pdfdownloads{
+    min-width: 100%;
+    max-width: 1000px;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:5%;
 }
 .bildteam{
     background-image: url(img/team/Team.jpg);
