@@ -174,6 +174,7 @@ footer{
     min-height: 200px;
     display:flex;
     flex-wrap: wrap;
+    padding-right: 50px;
 }
 .footbox{
     flex: 0 1 auto;
@@ -386,7 +387,7 @@ footer{
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+    display: none;
 }
 .mySlides1 {
     display: none;
@@ -522,7 +523,7 @@ address a{
 }
 #kontakt{
     display:flex;
-    flex:wrap;
+    flex-wrap:wrap;
     margin:5%;
 }
 #kontakt h1{
@@ -548,14 +549,16 @@ address a{
     background-size: cover;
     height:600px;
     width:60%;
+    width:900px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-position:right;
 }
 /*vierte Seite Karriere----------------------------------------------------------------------------------------------------------------------*/
 #karriere{
     display:flex;
-    flex:wrap;
+    flex-wrap:wrap;
     margin:5%;
+    flex-grow:1;
 }
 #karriere h1{
     padding-bottom:2%;
@@ -579,9 +582,11 @@ address a{
     background-repeat: no-repeat;
     background-size: cover;
     height:600px;
-    width:60%;
+    min-width:60%;
+    width:900px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-position:right;
+    background-position:center;
+    
 }
 /*Für Handyscreens---------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 800px) {
@@ -632,5 +637,20 @@ address a{
         min-width:50%;
         font-size:9pt;
     }
-    
+    #karriere{
+        max-width:800px;
+        flex-grow:1;
+        flex-shrink:1;
+        justify-content:center;
+    }
+    .karrierebild{
+        background-size: cover;
+        height:50vw;
+        min-height: 20vh;
+        width:90%;
+        background-position:center;
+    }
+    .karrieretext{
+        min-width:200px;
+    }
   }
