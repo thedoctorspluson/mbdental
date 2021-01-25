@@ -525,6 +525,7 @@ address a{
     display:flex;
     flex-wrap:wrap;
     margin:5%;
+    flex-grow:1;
 }
 #kontakt h1{
     padding-bottom:2%;
@@ -548,7 +549,7 @@ address a{
     background-repeat: no-repeat;
     background-size: cover;
     height:600px;
-    width:60%;
+    min-width:60%;
     width:900px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-position:right;
