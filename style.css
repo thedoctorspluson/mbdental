@@ -168,7 +168,7 @@ button {
     transition: 0.2s;
 }  
 footer{
-    background-color: #39bdd4;
+    background-color: #6cb2bc;
     width:100%;
     min-height: 200px;
     display:flex;
@@ -248,7 +248,7 @@ footer{
     color:white;
 }
 #philosophie{
-    background-color: #39bdd4;
+    background-color: #6cb2bc;
 }
 #philosophie p{
     color:white;
@@ -272,7 +272,7 @@ footer{
     padding-top:5%;
 }
 #kurse{
-    background-color: #39bdd4;
+    background-color: #6cb2bc;
     
 }
 #fachartikel{
