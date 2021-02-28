@@ -1,439 +1,469 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: 'Quicksand', sans-serif;   
-    line-height: 1.5;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
 }
-body{
-    max-width: 100vw;
+body {
+  max-width: 100vw;
 }
-h1{
-    color:black;
-    font-size: 30pt;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing:1px;
+h1 {
+  color: #333;
+  font-size: 30pt;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
 }
-h2{
-    color:black;
-    margin-bottom:1%;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing:1px;
+h2 {
+  color: black;
+  margin-bottom: 1%;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
 }
-h3{
-    color: #838181;
-    padding-bottom: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-style: italic; 
+h3 {
+  color: #838181;
+  padding-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
 }
-h4{
-    color:rgba(0, 0, 0, 0.699);
-    font-size: 20pt;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing:1px;
+h4 {
+  color: rgba(0, 0, 0, 0.699);
+  font-size: 20pt;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
 }
-.firstletter{
-    font-size: 30pt;
-    color:#418aad;
-    font-family: 'Dancing Script', sans-serif;
-    letter-spacing:1px;
-    line-height:40px;
+
+p:first-letter {
+  font-size: 2rem;
+  color: #418aad;
+  /* font-family: "Dancing Script", sans-serif; */
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 1;
 }
-.hervorhebung2{
-    font-weight:bold;
+
+.hervorhebung2 {
+  font-weight: bold;
 }
-a{
-    color:#418aad;
+a {
+  color: #418aad;
 }
-.logo{
-    height:125px;
-}
-button{
-    font-family: 'Source Sans Pro', sans-serif;
-    letter-spacing:1px;
-}
-.headline{
-    background-color: #418aad;
-    width:100%;
-    height: 2px;
-}
-header{
-   position:relative;
-}
-.headerbild{
-    background-image: url(img/patientenraum1.jpg);
-    Filter: brightness(0.8);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center; 
-    width:100%;
-    height: 550px;
-}
-.buttonheader {
-    text-transform:uppercase;
-    font-size: 16pt;
-    font-weight: bold;
-    background-color:white;
-    color:  #418aad;
-    padding: 3%;
-    margin:2%;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: 0.2s;
-}
-button:hover{
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} 
-.headertext{
-    Filter: brightness(1);
-    width:30%;
-    position: absolute;
-    bottom: 40px;
-    left: 10px; 
-}
-header h1{
-    color:white;
-    padding: 5%;
-    margin-bottom: 5%;
-}
-nav{
-    display: flex;
-    flex-wrap: wrap;
-}
-.navlink{
-    flex: 1 1 auto;
-    color: #838181;
-    padding-top: 3%;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 3%;
-    text-align: center;
-    transition: 0.15s;
-}
-.navlink:hover{
-    background-color: rgb(110, 158, 186, 0.2);
-}
-.spaceholder{
-    flex: 10;
-    padding: 1.5%;
-}
-.infoboxes{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-.infoboxes h2{
-    border-bottom: 2px solid #418aad;
-}
-.box{
-    flex: 1 1 auto;
-    padding:4%;
-    color: #838181;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 280px;
-    max-width:500px;
-}
-.bildundinfo{
-    display:flex;
-    padding:2%;
-    flex-wrap: wrap;
-}
-.bildstartseite{
-    background-image: url(img/empfang.jpg);
-    flex: 1 1 auto;
-    margin: 5%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:450px;
-    min-width:50%;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    flex-grow:1;
-    background-position:center;
-}
-.box2{
-    flex: 1 1 auto;
-    margin:auto;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 280px;
+.logo {
+  height: 125px;
 }
 button {
-    text-transform:uppercase;
-    font-size: 16pt;
-    font-weight: bold;
-    background-color: #418aad;
-    color:  white;
-    padding: 1%;
-    margin:3%;
-    margin-bottom: 40px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: 0.2s;
-}  
-footer{
-    background-color: #6cb2bc;
-    width:100%;
-    min-height: 200px;
-    display:flex;
-    flex-wrap: wrap;
-    padding-right: 50px;
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 1px;
 }
-.footbox{
-    flex: 0 1 auto;
-    color: white;
-    min-width:15%;
-    font-size:11pt;
-    padding:3%;
-    padding-left:5%;
-    line-height: 150%;
+.headline {
+  background-color: #418aad;
+  width: 100%;
+  height: 2px;
 }
-.footlink{
-    color: white;
-    text-decoration:none;
-    transition: 0.15s;
+header {
+  position: relative;
 }
-.footlink:hover{
-    color: lightgrey;
+.headerbild {
+  background-image: url(img/patientenraum1.jpg);
+  filter: brightness(0.8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 550px;
 }
-.facebook{
-    height:100px;
+.buttonheader {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: white;
+  color: #418aad;
+  padding: 3%;
+  margin: 2%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.headertext {
+  filter: brightness(1);
+  width: 30%;
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
+}
+
+.headertext h1 {
+  line-height: 2.5rem;
+}
+
+header h1 {
+  color: white;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.navlink {
+  flex: 1 1 auto;
+  color: #838181;
+  padding-top: 3%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 3%;
+  text-align: center;
+  transition: 0.15s;
+}
+.navlink:hover {
+  background-color: rgb(110, 158, 186, 0.2);
+}
+.spaceholder {
+  flex: 10;
+  padding: 1.5%;
+}
+.infoboxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.infoboxes h2 {
+  border-bottom: 2px solid #418aad;
+}
+.box {
+  flex: 1 1 auto;
+  padding: 4%;
+  color: #838181;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 280px;
+  max-width: 500px;
+}
+.bildundinfo {
+  display: flex;
+  padding: 2%;
+  flex-wrap: wrap;
+}
+.bildstartseite {
+  background-image: url(img/empfang.jpg);
+  flex: 1 1 auto;
+  margin: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  min-width: 50%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  flex-grow: 1;
+  background-position: center;
+}
+.box2 {
+  flex: 1 1 auto;
+  margin: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 280px;
+}
+button {
+  text-transform: uppercase;
+  font-size: 16pt;
+  font-weight: bold;
+  background-color: #418aad;
+  color: white;
+  padding: 1%;
+  margin: 3%;
+  margin-bottom: 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+footer {
+  background-color: #6cb2bc;
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 50px;
+}
+.footbox {
+  flex: 0 1 auto;
+  color: white;
+  min-width: 15%;
+  font-size: 11pt;
+  padding: 3%;
+  padding-left: 5%;
+  line-height: 150%;
+}
+.footlink {
+  color: white;
+  text-decoration: none;
+  transition: 0.15s;
+}
+.footlink:hover {
+  color: lightgrey;
+}
+.facebook {
+  height: 100px;
 }
 #myBtn {
-    display: none; 
-    position: fixed; 
-    bottom: 0;
-    right: 0; 
-    z-index: 120; 
-    border: none; 
-    outline: none; 
-    background-color: rgb(139, 139, 139, 0.4); 
-    color: white;
-    cursor: pointer; 
-    padding: 1vw; 
-    border-radius: 10px; 
-    font-size: 18px; 
-    transition: 0.15s;
-    margin: 2%;
-    margin-right:1%;
-  }
-  
-  #myBtn:hover {
-    background-color:  rgb(139, 139, 139); 
-  }
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 120;
+  border: none;
+  outline: none;
+  background-color: rgb(139, 139, 139, 0.4);
+  color: white;
+  cursor: pointer;
+  padding: 1vw;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: 0.15s;
+  margin: 2%;
+  margin-right: 1%;
+}
+
+#myBtn:hover {
+  background-color: rgb(139, 139, 139);
+}
 /*Zweite Seite: Über uns-------------------------------------------------------------------------------------------------------------------------------------*/
-.unternav{
-    display:flex; 
-    justify-content:center;
-    background-color: rgb(110, 158, 186, 0.2);
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.unternav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(110, 158, 186, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.unternav a{
-    flex: 0 1 auto;
-    padding: 1.5%;
-    padding-left: 2%;
-    padding-right: 2%;
-    color: #838181;
-    text-align: center;
-    transition: 0.15s;
+.unternav a {
+  flex: 0 1 auto;
+  padding: 1.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: #838181;
+  text-align: center;
+  transition: 0.15s;
 }
-.unternav a:hover{
-    background-color: #418aad;
-    color: white;
+.unternav a:hover {
+  background-color: #418aad;
+  color: white;
 }
-#team{
-    margin-bottom:5%;
+#team {
+  margin-bottom: 5%;
 }
-#team p{
-    max-width: 1000px;
-    padding:5%; 
+#team p {
+  max-width: 1000px;
+  padding: 5%;
 }
-#team h1{
-    color:white;
+#team h1 {
+  color: white;
 }
-#philosophie{
-    background-color: #6cb2bc;
+#philosophie {
+  background-color: #6cb2bc;
 }
-#philosophie p{
-    color:white;
-    max-width: 1000px;
-    padding-left:5%;
-    padding-right:5%;
-    padding-bottom:5%;
+#philosophie p {
+  color: white;
+  max-width: 1000px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
 }
-#philosophie h1{
-    color:white;
-    padding-bottom:2%;
-    padding-left:5%;
-    padding-top:5%;  
+#philosophie h1 {
+  color: white;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-top: 5%;
 }
-#anlage{
-    padding-bottom:5%;
+#anlage {
+  padding-bottom: 5%;
 }
-#anlage h1, #team h1, #fachartikel h1{
-    padding-bottom:2%;
-    padding-left:5%;
-    padding-top:5%;
+#anlage h1,
+#team h1,
+#fachartikel h1 {
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-top: 5%;
 }
-#kurse{
-    background-color: #6cb2bc;
-    
+#kurse {
+  background-color: #6cb2bc;
 }
-#fachartikel{
-    margin-bottom: 5%;
+#fachartikel {
+  margin-bottom: 5%;
 }
-#kurse p, #fachartikel p{
-    color:white;
-    max-width: 1000px;
-    padding-left:5%;
-    padding-right:5%;
-    padding-bottom:5%;
+#kurse p,
+#fachartikel p {
+  color: white;
+  max-width: 1000px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
 }
-#kurse h1{
-    color:white;
-    padding-bottom:2%;
-    padding-left:5%;
-    padding-top:5%;  
+#kurse h1 {
+  color: white;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-top: 5%;
 }
-.pdfview{
-    height:600px;
-    width: 100%;
+.pdfview {
+  height: 600px;
+  width: 100%;
 }
-.pdfdownloads{
-    min-width: 100%;
-    max-width: 1000px;
-    padding-left:5%;
-    padding-right:5%;
-    padding-bottom:5%;
+.pdfdownloads {
+  min-width: 100%;
+  max-width: 1000px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
 }
-.bildteam{
-    background-image: url(img/team/Team.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:800px;
-    width:100%;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-position:top;
+.bildteam {
+  background-image: url(img/team/Team.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-position: top;
 }
-.portraitcontainer{
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
-    align-items:flex-start;
-    align-content: center;
+.portraitcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: center;
 }
-.portrait{
-    flex: 0 1 auto;
-    margin: 0.5vw;
-    flex-basis:20%;
+.portrait {
+  flex: 0 1 auto;
+  margin: 0.5vw;
+  flex-basis: 20%;
 }
-.bild{
-    max-width:300px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.bild {
+  max-width: 300px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /*dritte Seite: Unsere Arbeit-------------------------------------------------------------------------------------------------------------------------------------*/
-#vollkeramik, #metallkeramik, #oxidkeramik{
-    padding-bottom:5%;
+#vollkeramik,
+#metallkeramik,
+#oxidkeramik {
+  padding-bottom: 5%;
 }
-#implantate{
-    padding-bottom:5%;
+#implantate {
+  padding-bottom: 5%;
 }
-#vollkeramik h1, #metallkeramik h1, #oxidkeramik h1, #implantate h1 {
-    padding-bottom:2%;
-    padding-left:5%;
-    padding-top:5%; 
+#vollkeramik h1,
+#metallkeramik h1,
+#oxidkeramik h1,
+#implantate h1 {
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-top: 5%;
 }
-#vollkeramik h4, #metallkeramik h4, #oxidkeramik h4, #implantate h4 {
-    padding-bottom:1%;
-    padding-left:5%;
-    padding-top:2%; 
+#vollkeramik h4,
+#metallkeramik h4,
+#oxidkeramik h4,
+#implantate h4 {
+  padding-bottom: 1%;
+  padding-left: 5%;
+  padding-top: 2%;
 }
-.erklaerung{
-    max-width: 1500px;
-    padding-left:5%;
-    padding-right:5%;
-    padding-bottom:5%;
+.erklaerung {
+  max-width: 1500px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
 }
-.slideundtext{
-    display:flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color:  rgb(110, 158, 186, 0.2);
-    max-width:2000px;
-    margin:auto;
+
+.slideundtext {
+  justify-content: space-between;
+  display: flex;
+  background-color: rgb(110, 158, 186, 0.2);
+  overflow-x: hidden;
 }
-.beschreibung{
-    
-    height: 400px;
-    width:50%;
-    min-width:400px;
-    flex: 0 1 auto;
-    margin: auto;
-    padding: 5%;
-    line-height: 1.5;
+
+.slidehalf {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
 }
-.beschreibung h2{
-    color:#418aad;
-    
+
+.slidehalfcenter {
+  justify-content: center;
 }
-.bildtitel{
-    color:#418aad;
-    padding-bottom:2%;
-    padding-left:5%;
-    padding-top:5%; 
-    font-family: 'Roboto', sans-serif;
-    letter-spacing:1px;
-    font-size: 1.5em;
-    font-weight: bold;
+
+.slidehalf h2 {
+  color: #418aad;
 }
-.bildbeschreibung{
-    font-size: 18pt;
-    letter-spacing:1px;
-    font-style: italic;
-    color:rgb(138, 136, 136);
-    margin-bottom:0px;
+
+.zahnslider1 {
+  max-width: 45vw;
 }
-.zahnslider1{
-    flex: 0 1 auto;
-    width: 46%;
-    min-width:400px; 
-    position: relative;
-    margin: 2%;
+
+.slick-track {
 }
-.zahnslider1 img{
-    height:400px;
-    object-fit: cover;
-    width: 100%;
-    
+
+.beschreibung {
+  height: 400px;
+  width: 50%;
+  min-width: 400px;
+  flex: 0 1 auto;
+  margin: auto;
+  padding: 5%;
+  line-height: 1.5;
 }
-.slick-dots li{
-    margin-left:5px;
-    margin-right: 5px;
-    margin-bottom:10px;
+.beschreibung h2 {
+  color: #418aad;
 }
-.slick-dots li button{
-    list-style-type:none;
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-    
+.bildtitel {
+  color: #418aad;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-top: 5%;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.bildbeschreibung {
+  font-size: 18pt;
+  letter-spacing: 1px;
+  font-style: italic;
+  color: rgb(138, 136, 136);
+  margin-bottom: 0px;
+}
+.zahnslider1 img {
+  height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+.slick-dots li {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+.slick-dots li button {
+  list-style-type: none;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 .slick-dots li.slick-active button {
-    background-color: #717171;
-  }
+  background-color: #717171;
+}
 .slick-dots li button:before {
-    content: '';
+  content: "";
 }
 /* button.slick-prev.slick-arrow::before, button.slick-next.slick-arrow::before {
     cursor: pointer;
@@ -450,22 +480,25 @@ footer{
     border-radius: 0 3px 3px 0;
     user-select: none;
   } */
-  button.slick-prev.slick-arrow::before, button.slick-next.slick-arrow::before{
-      font-size: 50px;
-  }
-  button.slick-prev.slick-arrow {
-      z-index: 1000;
-      left:-25px;
-        }
-  button.slick-next.slick-arrow {
-    z-index: 1000;
-    right:5px;
-   }
+button.slick-prev.slick-arrow::before,
+button.slick-next.slick-arrow::before {
+  font-size: 50px;
+}
+button.slick-prev.slick-arrow {
+  z-index: 1000;
+  left: -25px;
+}
+button.slick-next.slick-arrow {
+  z-index: 1000;
+  right: 5px;
+}
 /* button.slick-next.slick-arrow:hover, button.slick-prev.slick-arrow:hover {
     background-color: rgba(0,0,0,0.8);
   } */
 /*Slideshow --------------------------------------------------------------------*/
-* {box-sizing:border-box}
+* {
+  box-sizing: border-box;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -474,52 +507,55 @@ footer{
   margin: auto;
 }
 .slideshow-container2 {
-    flex: 0 1 auto;
-    width: 50%;
-    min-width:400px;
-    position: relative;
-    margin: auto;
-  }
-.slideshow-container img{
-    height:700px;
-    object-fit: cover;
+  flex: 0 1 auto;
+  width: 50%;
+  min-width: 400px;
+  position: relative;
+  margin: auto;
 }
-.slideshow-container2 img{
-    height:400px;
-    object-fit: cover;
+.slideshow-container img {
+  height: 700px;
+  object-fit: cover;
+}
+.slideshow-container2 img {
+  height: 400px;
+  object-fit: cover;
 }
 
 /* Hide the images by default */
 .mySlides {
-    display: none;
+  display: none;
 }
 .mySlides1 {
-    display: none;
+  display: none;
 }
-.mySlides2, .mySlides3, .mySlides4 {
-    display: none;
+.mySlides2,
+.mySlides3,
+.mySlides4 {
+  display: none;
 }
-.vergleichrechts{
-    cursor: pointer;
-    position: absolute;
-    top: 5.5%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.19);
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}  
-.vergleichrechts:hover{ 
-    background-color: lightslategray;
-    transition: 0.2s;
+.vergleichrechts {
+  cursor: pointer;
+  position: absolute;
+  top: 5.5%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.vergleichrechts:hover {
+  background-color: lightslategray;
+  transition: 0.2s;
 }
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -542,8 +578,9 @@ footer{
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -562,12 +599,12 @@ footer{
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
-  text-shadow: 2px 0px ;
+  text-shadow: 2px 0px;
   font-size: 20px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* The dots/bullets/indicators */
@@ -582,7 +619,8 @@ footer{
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -595,194 +633,208 @@ footer{
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .9}
-  to {opacity: 1}
+  from {
+    opacity: 0.9;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-  from {opacity: .9}
-  to {opacity: 1}
+  from {
+    opacity: 0.9;
+  }
+  to {
+    opacity: 1;
+  }
 }
 /*Slideshowende------------------------------------------------------------------------*/
 /*vierte Seite Kontakt--------------------------------------------------------------------------------------------------------------------------------------*/
-address{
-    font-style:normal;
-    max-width: 800px;
-    padding-left:5%;
-    padding-right:5%;
-    padding-bottom:5%;
-    color:#418aad;
+address {
+  font-style: normal;
+  max-width: 800px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  color: #418aad;
 }
-address a{
-    text-decoration:none;
-    color: #418aad;
-    text-decoration: underline;
+address a {
+  text-decoration: none;
+  color: #418aad;
+  text-decoration: underline;
 }
-.hervorhebung{
-    font-size: 20pt;
-    color:#418aad;
-    margin-bottom:1%;
-    
-    letter-spacing:1px;
+.hervorhebung {
+  font-size: 20pt;
+  color: #418aad;
+  margin-bottom: 1%;
+
+  letter-spacing: 1px;
 }
-#kontakt{
-    display:flex;
-    flex-wrap:wrap;
-    margin:5%;
-    flex-grow:1;
+#kontakt {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5%;
+  flex-grow: 1;
 }
-#kontakt h1{
-    padding-bottom:2%;
-    padding-left:5%;
-    padding-top:5%;
+#kontakt h1 {
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-top: 5%;
 }
-#kontakt p{
-    max-width: 800px;
-    padding-left:5%;
-    padding-right:5%;
-    padding-bottom:5%;
+#kontakt p {
+  max-width: 800px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
 }
-.kontakttext{
-    flex: 0 1 auto;
-    width: 500px;
-    margin-right:5%;
+.kontakttext {
+  flex: 0 1 auto;
+  width: 500px;
+  margin-right: 5%;
 }
-.kontaktbild{
-    flex: 0 1 auto;
-    background-image: url(img/team/Rezeption.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:600px;
-    min-width:60%;
-    width:900px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-position:right;
+.kontaktbild {
+  flex: 0 1 auto;
+  background-image: url(img/team/Rezeption.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  min-width: 60%;
+  width: 900px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-position: right;
 }
 /*vierte Seite Karriere----------------------------------------------------------------------------------------------------------------------*/
-#karriere{
-    display:flex;
-    flex-wrap:wrap;
-    margin:5%;
-    flex-grow:1;
+#karriere {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5%;
+  flex-grow: 1;
 }
-#karriere h1{
-    padding-bottom:2%;
-    padding-left:5%;
-    padding-top:5%;
+#karriere h1 {
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-top: 5%;
 }
-#karriere p{
-    max-width: 800px;
-    padding-left:5%;
-    padding-right:5%;
-    padding-bottom:5%;
+#karriere p {
+  max-width: 800px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
 }
-.karrieretext{
-    flex: 0 1 auto;
-    width: 500px;
-    margin-right:5%;
+.karrieretext {
+  flex: 0 1 auto;
+  width: 500px;
+  margin-right: 5%;
 }
-.karrierebild{
-    flex: 0 1 auto;
-    background-image: url(img/team/team.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:600px;
-    min-width:60%;
-    width:900px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-position:center;
-    
+.karrierebild {
+  flex: 0 1 auto;
+  background-image: url(img/team/team.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  min-width: 60%;
+  width: 900px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-position: center;
 }
 /*Für Handyscreens---------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 800px) {
-    *{
-        font-size: 10pt;
-    }
-    h1{
-        font-size: 20pt;
-    }
-    h2{
-        font-size: 15pt;
-    }
-    button{
-        font-size:13pt;
-    }
-    header button{
-        font-size:13pt;
-        padding:2%;
-    }
-    .navlink{
-        flex: 1 1 450px;
-    }
-    .unternav{
-        height: 40px;
-    }
-    .unternav a{
-        padding:2%;
-    }
-    inhaltsboxen{
-        max-width:600px;
-    }
-    main{
-        margin: 0 auto;
-    }
-    .bildteam{
-        background-size: contain;
-        height: 500px;
-        max-height:50vh; 
-        box-shadow: 0 0px 0px 0, 0 0px 0px 0;
-    }
-    #team h1{
-        padding-top: 200px;
-    }
-    .kontaktbild{
-        display:none;
-    }
-    .footbox{
-        min-width:50%;
-        font-size:9pt;
-    }
-    #karriere{
-        max-width:800px;
-        flex-grow:1;
-        flex-shrink:1;
-        justify-content:center;
-    }
-    .karrierebild{
-        background-size: cover;
-        height:50vw;
-        min-height: 20vh;
-        width:90%;
-        background-position:center;
-    }
-    .karrieretext{
-        min-width:200px;
-    }
-    .headertext{
-        Filter: brightness(1);
-        width:80%;
-        position: absolute;
-        bottom: 10px;
-        left: 10px; 
-    }
-    .buttonheader {
-        text-transform:uppercase;
-        font-size: 12pt;
-        font-weight: bold;
-        background-color:white;
-        color:  #418aad;
-        padding: 3%;
-        margin:2%;
-        margin-top:0;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        transition: 0.2s;
-    }
-    header h1{
-        font-size:10pt;
-        margin-bottom: 0px;
-        padding-bottom:1%;
-    }
-    
+  * {
+    font-size: 10pt;
   }
+  h1 {
+    font-size: 20pt;
+  }
+  h2 {
+    font-size: 15pt;
+  }
+  button {
+    font-size: 13pt;
+  }
+  header button {
+    font-size: 13pt;
+    padding: 2%;
+  }
+  .navlink {
+    flex: 1 1 450px;
+  }
+  .unternav {
+    flex-wrap: wrap;
+  }
+  .unternav a {
+    padding: 2%;
+  }
+  inhaltsboxen {
+    max-width: 600px;
+  }
+  main {
+    margin: 0 auto;
+  }
+  .bildteam {
+    background-size: contain;
+    height: 500px;
+    max-height: 50vh;
+    box-shadow: 0 0px 0px 0, 0 0px 0px 0;
+  }
+  #team h1 {
+    padding-top: 200px;
+  }
+  .kontaktbild {
+    display: none;
+  }
+  .footbox {
+    min-width: 50%;
+    font-size: 9pt;
+  }
+  #karriere {
+    max-width: 800px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+  }
+  .karrierebild {
+    background-size: cover;
+    height: 50vw;
+    min-height: 20vh;
+    width: 90%;
+    background-position: center;
+  }
+  .karrieretext {
+    min-width: 200px;
+  }
+  .headertext {
+    width: 80%;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .buttonheader {
+    text-transform: uppercase;
+    font-size: 12pt;
+    font-weight: bold;
+    background-color: white;
+    color: #418aad;
+    padding: 3%;
+    margin: 2%;
+    margin-top: 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  header h1 {
+    font-size: 10pt;
+    margin-bottom: 0px;
+    padding-bottom: 1%;
+  }
+
+  .slideundtext {
+    display: block;
+  }
+
+  .zahnslider1 {
+    max-width: 90vw;
+  }
+}
