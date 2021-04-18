@@ -405,7 +405,12 @@ footer {
 .zahnslider1 {
   max-width: 45vw;
 }
-
+.oneslide {
+  justify-content: center;
+  display: flex;
+  background-color: rgb(110, 158, 186, 0.2);
+  overflow-x: hidden;
+}
 .slick-track {
 }
 
@@ -432,7 +437,7 @@ footer {
   font-weight: bold;
 }
 .bildbeschreibung {
-  font-size: 18pt;
+  font-size: 1.2em;
   letter-spacing: 1px;
   font-style: italic;
   color: rgb(138, 136, 136);
