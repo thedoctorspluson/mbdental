@@ -853,4 +853,8 @@ address a {
   .bildbeschreibung {
     padding-left: 0%;
   }
+
+  #myBtn {
+    right: 20px;
+  }
 }
