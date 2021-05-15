@@ -33,6 +33,9 @@ h4 {
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
 }
+.untertitel {
+  max-width: 70%;
+}
 
 p:first-letter {
   font-size: 2rem;
@@ -437,15 +440,16 @@ footer {
   font-weight: bold;
 }
 .bildbeschreibung {
-  font-size: 1.2em;
+  font-size: 1em;
   letter-spacing: 1px;
   font-style: italic;
   color: rgb(138, 136, 136);
   margin-bottom: 0px;
+  padding-left: 5%;
 }
 .zahnslider1 img {
   height: 400px;
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
 }
 .slick-dots li {
@@ -841,5 +845,12 @@ address a {
 
   .zahnslider1 {
     max-width: 90vw;
+  }
+
+  .zahnslider1 img {
+    height: 50%;
+  }
+  .bildbeschreibung {
+    padding-left: 0%;
   }
 }
