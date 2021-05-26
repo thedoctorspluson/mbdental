@@ -48,6 +48,7 @@ p:first-letter {
 }
 
 .plaintext {
+  max-width: 100%;
 }
 
 .contain {
