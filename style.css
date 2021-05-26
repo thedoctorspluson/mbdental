@@ -47,6 +47,24 @@ p:first-letter {
   line-height: 1;
 }
 
+.plaintext {
+}
+
+.contain {
+  max-width: 800px;
+  margin: auto;
+}
+
+.plaintext p:first-letter {
+  font-size: 1rem;
+  color: #000000;
+  /* font-family: "Dancing Script", sans-serif; */
+  letter-spacing: 1px;
+  font-weight: normal;
+  text-transform: capitalize;
+  line-height: 1.5;
+}
+
 .hervorhebung2 {
   font-weight: bold;
 }
