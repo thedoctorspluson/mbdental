@@ -56,6 +56,9 @@ a {
 .logo {
   height: 125px;
 }
+.langicon {
+  height: 20px;
+}
 button {
   font-family: "Source Sans Pro", sans-serif;
   letter-spacing: 1px;
